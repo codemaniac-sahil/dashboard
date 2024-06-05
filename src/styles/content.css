@@ -1,0 +1,13 @@
+.content-section {
+    position: relative;
+    margin-left: 6%;
+
+
+}
+
+.content-section-cards-container {
+    display: flex;
+    margin-top: 2em;
+    gap: 1em;
+
+}

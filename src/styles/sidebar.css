@@ -1,0 +1,32 @@
+.sidebar-section {
+    height: 100vh;
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    position: absolute;
+
+}
+
+.sidebar-section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-size: 15px;
+    color: grey;
+}
+
+.sidebar-links svg {
+    cursor: pointer;
+    font-size: 24px;
+}
